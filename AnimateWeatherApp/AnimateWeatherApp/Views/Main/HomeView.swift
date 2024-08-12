@@ -113,12 +113,7 @@ struct HomeView: View {
             string[weather].font = .title3.weight(.semibold)
             string[weather].foregroundColor = .secondary
         }
-        
-        if let weather = string.range(of: "") {
-            string[weather].font = .title3.weight(.semibold)
-            string[weather].foregroundColor = .secondary
-        }
-        
+
         
         return string
     }
